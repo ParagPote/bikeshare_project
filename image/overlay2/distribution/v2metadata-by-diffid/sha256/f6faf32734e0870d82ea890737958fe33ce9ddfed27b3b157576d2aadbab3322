@@ -1,0 +1,1 @@
+[{"Digest":"sha256:ca4e5d6727252f0dbc207fbf283cb95e278bf562bda42d35ce6c919583a110a0","SourceRepository":"docker.io/library/python","HMAC":""},{"Digest":"sha256:ca4e5d6727252f0dbc207fbf283cb95e278bf562bda42d35ce6c919583a110a0","SourceRepository":"docker.io/pipsparag/bikeshare_fastapi","HMAC":"a289f56ee00fea2860d43ef63c5d281f553cb3e565df7761fbf5c36aba7d4c18"}]
