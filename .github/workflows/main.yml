@@ -21,8 +21,7 @@ jobs:
       with:
         name: my-trained-pipeline
         path: bikeshare_model/trained_models/*.pkl
-        retention-days: 1
-  
+        retention-days: 1  
   test:
     needs: train
     runs-on: ubuntu-latest
