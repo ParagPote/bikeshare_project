@@ -2,10 +2,10 @@
 FROM python:3.10
 
 # Copy application files
-COPY ../bikeshare_project ../bikeshare_project
+COPY ../bikeshare_project bikeshare_project
 
 # Specify workign directory
-WORKDIR ../bikeshare_project
+WORKDIR bikeshare_project
 
 #update pip
 RUN pip install --upgrade pip
