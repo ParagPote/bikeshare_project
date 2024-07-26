@@ -2,7 +2,7 @@
 FROM python:3.10
 
 # Copy application files
-ADD ../bikeshare_project bikeshare_project
+ADD ../bikeshare_project ../bikeshare_project
 
 # Specify workign directory
 WORKDIR ../bikeshare_project
