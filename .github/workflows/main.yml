@@ -84,9 +84,9 @@ jobs:
         DOCKER_USER: ${{ secrets.DOCKER_USER_NAME }}
       #run: docker build . -f Dockerfile -t $DOCKER_USER/bikeshare_fastapi:latest
       run: docker build . -f Dockerfile -t bikeshare_fastapi:latest
-    - name: Push the Docker Image
-      env:
-        DOCKER_USER: ${{ secrets.DOCKER_USER_NAME }}
+    #- name: Push the Docker Image
+      #env:
+        #DOCKER_USER: ${{ secrets.DOCKER_USER_NAME }}
       #run: docker push $DOCKER_USER/bikeshare_fastapi
       #run: docker push bikeshare_fastapi:latest
     - name: Logout to Docker hub
